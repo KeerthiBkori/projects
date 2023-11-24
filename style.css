@@ -1,0 +1,32 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:sans-serif;
+}
+#hero{
+    width:100%;
+    height:100vh;
+    background-image:url(https://securitygladiators.com/wp-content/uploads/2020/10/a-man-holding-a-hologram-globe-with-the-words-data-encryption-on-it.jpg);
+    background-size:cover;
+    background-position:center;
+    position:relative;
+    
+}
+
+.container{
+    width:40%;
+    height:100vh;
+    background:rgba(86, 86, 86, 0.3);
+    backdrop-filter:blur(10px);
+    position:absolute;
+    right:0;
+    top:0;
+}
+.info{
+    width:350px;
+    color:white;
+    position:absolute;
+    right:0;
+    top:50%;
+    transform:translate(-50%);
+}
